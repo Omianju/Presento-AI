@@ -4,7 +4,7 @@ import Link from "next/link";
 import { buttonVariants } from "../ui/button";
 import { FaYoutube, FaArrowRight } from "react-icons/fa";
 import { RiSlideshowLine } from "react-icons/ri";
-import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
+import {RegisterLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 const Hero = () => {
   const user = false;

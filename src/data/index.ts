@@ -8,6 +8,9 @@ import { MdBrandingWatermark } from "react-icons/md";
 
 const siteName = "YouTubeToSlides";
 
+export type Features = typeof features[0];
+
+
 const features = [
   {
     id: 1,

@@ -1,5 +1,12 @@
+
+
+
+
+
+
+import { type Features } from "@/data";
 import React from "react";
-const SingleFeatureCard = ({ feature }: { feature: any }) => {
+const SingleFeatureCard = ({ feature }: { feature: Features }) => {
   const { icon: Icon, title, description } = feature;
 
   return (
